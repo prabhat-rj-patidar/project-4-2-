@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    max-width: 130rem;
+    margin: 0px;
+    padding: 0px 120px;
+  }
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 69px;
+}
+
+.menulist {
+    flex-grow: 1;
+    padding-left: 62px;
+      
+}
+.menu{
+
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: #000000;
+    
+    
+}
+
+.menu li, .nav-button{
+    cursor: pointer;
+    
+}
+
+.nav-button {
+    padding: 14px 28px;
+    background-color: #5955b3;
+    border: none;
+    border-radius: 12px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
+
+.nav-button:hover{
+    background-color: #6591f7;
+    color: #000000;
+    transform: scale(1.2);
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    padding: 8px 16px;
+    border-color: #000000;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #6591f7;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.section1{
+    width: 40%;
+}
+.section2{
+    width: 60%;
+    display: flex;
+    justify-content: right;
+    
+    
+}
+.section2 img{
+    height:500px;
+    width: auto;
+    
+}
+.section1 h1{
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 74px;
+  color: #3c2f60;
+}
+
+.section1 h1 span{
+    color: #5955b3;
+}
+
+.section1 p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  color: #828282;
+  margin-top: 28px;
+}
+.section1 .btn2{
+    padding: 14px 28px;
+    background-color: #5955b3;
+    border: none;
+    border-radius: 12px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+
+.section1 .btn2:hover{
+    background-color: #6591f7;
+    color: #000000;
+    transform: scale(1.2);
+}
